@@ -57,3 +57,7 @@ attachments/
 # Large model files (download separately)
 *.gguf
 models/*.gguf
+
+# Claude documentation (local only)
+claude_prompt.md
+CLAUDE.md
