@@ -1,0 +1,25 @@
+# Core dependencies
+python-dotenv==1.0.0
+apscheduler==3.10.4
+
+# AI providers (choose one or both)
+anthropic==0.39.0
+openai==1.54.3
+httpx==0.27.2
+
+# Local AI model support
+llama-cpp-python==0.2.11
+
+# Image processing (optional for MVP, needed for OCR)
+Pillow==10.4.0
+pytesseract==0.3.10
+pdfplumber==0.11.0
+
+# Database
+# sqlite3 is built-in to Python
+
+# Email handling
+# imaplib, smtplib, email are built-in to Python
+
+# Utilities
+pytz==2024.1

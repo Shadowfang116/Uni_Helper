@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/bin/pip list:*)",
+      "Bash(./venv/bin/pip install:*)",
+      "Bash(./venv/bin/python:*)",
+      "Bash(PYTHONPATH=/home/fahad/Desktop/Uni_Helper ./venv/bin/python:*)",
+      "Bash(timeout 30 ./venv/bin/python:*)",
+      "Bash(command -v:*)",
+      "Bash(codex --help:*)",
+      "Bash(gemini --help:*)",
+      "Bash(codex exec:*)",
+      "Bash(tree:*)",
+      "Bash(pkill:*)",
+      "Bash(sshpass -p \"volt\" ssh -o StrictHostKeyChecking=no fahad@206.21.118.18 \"uname -a && python3 --version && free -h\")",
+      "Bash(gemini:*)",
+      "Bash(codex apply:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
