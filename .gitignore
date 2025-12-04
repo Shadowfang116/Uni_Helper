@@ -58,6 +58,7 @@ attachments/
 *.gguf
 models/*.gguf
 
-# Claude documentation (local only)
+# Claude/AI tool files (local only)
+.claude/
 claude_prompt.md
 CLAUDE.md
